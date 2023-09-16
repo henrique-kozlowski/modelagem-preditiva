@@ -7,6 +7,21 @@ O minicurso é dedicado a estudantes e profissionais da arqueologia que possuam 
 A capacidade de identificar áreas de localização de sítios arqueológicos é um interesse bastante antigo da arqueologia. O desenvolvimento de técnicas estatísticas para identificar e quantificar a probabilidade da presença de sítios tem origem nas décadas de 1970, com objetivos práticos de mapeamento e avaliação de áreas não-prospectadas na Europa e Estados Unidos. O refinamento das abordagens teóricas e dos softwares de análise espacial e estatística catalisaram o crescimento dos modelos preditivos, resultando na criação de diferentes teorias de modelagem. Os modelos preditivos podem ser classificados em dois tipos: dedutivos e indutivos. Operando com diferentes bases teóricas, neste minicurso iremos explorar os conceitos e praticar análises em ambas as abordagens. Para além da aplicação das técnicas também iremos avaliar quantitativamente a precisão e acurácia dos modelos produzidos.
 Todas as atividades serão realizadas com o uso do R para análises estatísticas e o QGIS para a análise e modelagem espacial. Estes softwares são gratuitos e de fácil acesso e uso. Apesar de recomendado um conhecimento mínimo sobre estatística e geoprocessamento, será feita uma introdução aos participantes aos temas e softwares na introdução do curso. 
 
+## Dados
+Variável | Tipo | Fonte
+---------|-----------|------
+Elevação (m) |Arquivo raster |SRTM 1 Arc-second. NASA-USGS.
+Declividade (º)|Arquivo raster | Autor
+Distância da Água|Arquivo raster | Autor
+Radiação Solar (WH/m²)|Arquivo raster | Autor
+Hillshade|Arquivo raster|Autor
+Geomorfologia|Arquivo vetorial|IBGE-DGC
+Hidrografia|Arquivo vetorial|ANA
+Litologia|Arquivo vetorial|CPRM
+Solos|Arquivo vetorial|IBGE
+Vegetação|Arquivo vetorial|IBGE
+Sítios|Arquivo vetorial|GRUPEP-Unisul e autor
+
 ## Bibliografia:
 
 CONOLLY, J. & M. LAKE. 2006. Geographical Information Systems in Archaeology (Cambridge Manuals in Archaeology). Cambridge: Cambridge University Press. https://www.cambridge.org/core/books/geographical-information-systems-in-archaeology/6CCD088D5DF8A32567A0A2B60CACD3A5. https://doi.org/10.1017/CBO9780511807459.
